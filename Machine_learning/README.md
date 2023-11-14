@@ -12,14 +12,6 @@
 This repository contains all Jupyter Notebooks and other code used in the course. Data is not inlcuded here, data download links are provided in data preparations Notebooks. Each exercise has its own folder:
 
 * [01_clustering](01_clustering) 
-* [02_vector_data_preparation](02_vector_data_preparation)
-* [03_raster_data_preparation](03_raster_data_preparation)
-* [04_shallow_regression](04_shallow_regression)
-* [05_shallow_classification](05_shallow_classification)
-* [06_deep_regression](06_deep_regression)
-* [07_deep_classification](07_deep_classification)
-* [08_cnn_segmentation](08_cnn_segmentation)
-
 
 
 ## Exercises on own computer
@@ -27,8 +19,7 @@ This repository contains all Jupyter Notebooks and other code used in the course
 Exercises Jupyter notebooks can be run as is on any computer. 
 To get started:
 * Get the exercise material from Github
-	* Clone this Github repository: `git clone https://github.com/csc-training/GeoML.git` 
-	* OR download the repository as a [zip-file](https://github.com/csc-training/GeoML/archive/refs/heads/main.zip)
+
 * Install all needed packages for running the notebooks:
 	* For pip use the [requirements.txt](requirements.txt) with `pip install -e requirements.txt`
 	* OR for conda, use the [environment.yml](environment.yml) with `conda create --name geoml --file environment.yml` which also creates a conda environment; see [conda homepage](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-envs) on how to use it). 
